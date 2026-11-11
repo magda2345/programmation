@@ -1,16 +1,46 @@
-# React + Vite
+# TD1 - Programmation Web 2 avec React
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+Ce projet a été réalisé dans le cadre du TD1 de Programmation Web 2.
 
-Currently, two official plugins are available:
+## Objectif
+Le but principal de ce travail est de mettre en pratique les bases du développement front-end avec React, en créant une interface propre et fonctionnelle, avec une mise en page soignée et des composants réutilisables.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+L’objectif visé ici est aussi de nettoyer le gabarit initial fourni par Vite afin d’obtenir une structure plus claire, plus moderne et plus adaptée à une petite application web.
 
-## React Compiler
+## Présentation
+Ce projet contient une maquette simple et organisée avec :
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- un header de navigation ;
+- une section de cartes (cards) ;
+- un footer de fin de page ;
+- un design épuré et lisible ;
+- une base React/Vite prête à évoluer.
 
-## Expanding the Oxlint configuration
+## Structure de la page
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+### Header
+Le header contient le nom du projet et les éléments de navigation principaux.
+
+### Cards
+Les cards permettent de présenter des informations ou des blocs de contenu de manière visuelle et structurée.
+
+### Footer
+Le footer ferme la page avec des informations utiles et un rendu professionnel.
+
+## Technologies utilisées
+
+- React
+- Vite
+- CSS personnalisé
+- JavaScript
+
+## Commandes utiles
+
+```bash
+npm install
+npm run dev
+npm run build
+```
+
+## Auteur
+Projet réalisé dans le cadre de la programmation web 2.
